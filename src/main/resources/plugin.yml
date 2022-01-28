@@ -1,0 +1,10 @@
+name: ${name}
+version: ${version}
+main: ${mainClass}
+api-version: 1.13
+commands:
+  arena:
+    description: This command activates the game command.
+    usage: /arena
+    permission: <plugin name>.basic
+    permission-message: You don't have <permission>
